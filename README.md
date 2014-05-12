@@ -10,4 +10,4 @@ OrgTreeChart
 
 demo截图
 --------------------------------
-    ![github](https://raw.githubusercontent.com/nauyz/OrgTreeChart/v1.0/src/example/images/demo.PNG "github")
+![github](https://raw.githubusercontent.com/nauyz/OrgTreeChart/v1.0/src/example/images/demo.PNG "github")
