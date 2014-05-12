@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>jQuery OrgChart Plugin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/jquery.otChart.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
+    <!-- jQuery includes -->
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="../jquery.otChart.js"></script>
+
+    <script>
+    jQuery(document).ready(function() {
+        var data = {
+            name:"中国",
+            id:1,
+            children:[{
+                name:"华北区",
+                id:2,
+                children:[{
+                    name:"北京",
+                    id:3
+                },{
+                    name:"天津",
+                    id:4
+                },{
+                    name:"河北",
+                    id:5
+                }]
+            },{
+                name:"华东区",
+                id:6
+            },{
+                name:"华南区",
+                id:7
+            }]
+        };
+        $("#org").otChart({
+            chartElement : '#chart',
+            dragAndDrop  : true, 
+            data : data
+        });
+    });
+    </script>
+  </head>
+
+  <body>
+    <div class="topbar">
+        <div class="topbar-inner">
+            <div class="container">
+                <a class="brand" href="#">jQuery Organisation Chart</a>
+                <ul class="nav">
+                </ul>         
+            </div>
+        </div>
+    </div>
+    
+    <div id="chart" class="orgChart">
+    </div>
+    
+</body>
+</html>

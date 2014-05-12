@@ -1,0 +1,49 @@
+/* Basic styling */
+#chart{
+  width: 800px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 40px;
+  background: #DEDFDA;
+}
+
+/* Draw the lines */
+.otChart .line {
+  height                : 20px;
+  width                 : 2px;
+}
+
+.otChart .down {
+  background-color 		: #35363B;	
+  margin 				: 0px auto;
+}
+
+.otChart .top {
+  border-top          : 2px solid #35363B;
+}
+
+.otChart .left {
+  border-right          : 1px solid #35363B;
+}
+
+.otChart .right {
+  border-left           : 1px solid #35363B;
+}
+
+/* node cell */
+.otChart td {
+  text-align            : center;
+  vertical-align        : top;
+  padding               : 0;
+}
+
+/* The node */
+.otChart .node {
+  background-color 		: #35363B;
+  display               : inline-block;
+  width                 : 96px;
+  height                : 40px;
+  z-index 				: 10;
+  margin               : 0 2px;
+  line-height: 40px;
+}
