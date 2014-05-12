@@ -8,7 +8,8 @@ OrgTreeChart
     代码中附插件和demo。
     该插件参考[jOrgChart](https://github.com/wesnolte/jOrgChart), 是在jOrgChart的基础上扩展了支持了JSON源数据
 
+
 demo截图
 --------------------------------
-    <br/>![github](https://raw.githubusercontent.com/nauyz/OrgTreeChart/v1.0/src/example/images/demo.PNG "github")
+    ![github](https://raw.githubusercontent.com/nauyz/OrgTreeChart/v1.0/src/example/images/demo.PNG "github")
 
