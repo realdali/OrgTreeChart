@@ -11,3 +11,6 @@ OrgTreeChart
 demo截图
 --------------------------------
     <br/>![github](https://raw.githubusercontent.com/nauyz/OrgTreeChart/v1.0/src/example/images/demo.PNG "github")
+### 链接
+1.[点击这里你可以链接到www.google.com](http://www.google.com)<br />
+2.[点击这里我你可以链接到我的博客](http://guoyunsky.iteye.com)<br />
