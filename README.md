@@ -9,4 +9,4 @@ OrgTreeChart
     该插件参考[jOrgChart](https://github.com/wesnolte/jOrgChart), 是在jOrgChart的基础上扩展了支持了JSON源数据<br/>
     
 demo截图
-    ![github](https://github.com/nauyz/OrgTreeChart/blob/v1.0/src/example/images/demo.PNG "github")
+    <br/>![github](https://raw.githubusercontent.com/nauyz/OrgTreeChart/v1.0/src/example/images/demo.PNG "github")
